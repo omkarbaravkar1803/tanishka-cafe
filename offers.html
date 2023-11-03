@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanishka Cafe</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css    ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js    "></script>
+
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <nav>
+      <div class="logophoto">
+          <img src="Green Coral Modern Food Logo.png" alt="" id="pp">
+      </div>
+      <div class="logo">
+          <h1> TANISHKA CAFE</h1>
+
+      </div>
+      <div class="input">
+          <input type="text" value="" id="inp" placeholder="Search Here.......">
+         
+      </div>
+      <div>
+        <ul class="navbar ">
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./products.html">Shope</a></li>
+            <li><a href="#manuCard">manu Card</a></li>
+            <li><a href="#offerceCard">offerce</a></li>
+            <!-- <li><a href="./login.html">login</a></li> -->
+            <li><a href="#footerSetion">Contact</a></li>
+            <!-- <li><a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li> -->
+          </ul>
+          <div>
+
+            <i id="navbtn" class="fa-solid fa-bars"></i>
+          </div>
+        <div class="wraper">
+          <i id="close" class="fa fa-times" aria-hidden="true"></i>
+          <li><a class="active" href="./index.html">Home</a></li>
+          <li><a href="./products.html">Shope</a></li>
+          <li><a href="#manuCard">manu Card</a></li>
+          <li><a href="#offerceCard">offerce</a></li>
+          <li><a href="./login.html">login</a></li>
+          <!-- <li><a href="#footerSetion">Contact</a></li> -->
+          <!-- <li><a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li> -->
+          
+        </div>
+      
+    </div>
+    
+  
+  </nav>
+
+  
+  
+    
+
+  <div>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://kauveryhospital.com/blog/wp-content/uploads/2021/04/pizza-5179939_960_720.jpg" class="d-block w-100" alt="..." height="500vh">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.tastingtable.com/img/gallery/what-makes-restaurant-burgers-taste-different-from-homemade-burgers-upgrade/l-intro-1662064407.jpg" class="d-block w-100" alt="..." height="500vh" >
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/EWitWhnoJIc/maxresdefault.jpg" class="d-block w-100" alt="..."height="500vh">
+          </div>
+          <div class="carousel-item">
+            <img src="https://e0.pxfuel.com/wallpapers/334/4/desktop-wallpaper-coffee-cold-coffee.jpg" class="d-block w-100" alt="..."height="500vh">
+          </div>
+          <div class="carousel-item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/41/723/754/food-ice-cream-wallpaper-preview.jpg" class="d-block w-100" alt="..."height="500vh">
+          </div>
+          <div class="carousel-item">
+            <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="..."height="500vh">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+
+    
+    <section id="manuCard">
+      <h1> Offers Card </h1>
+      <div class="manuCard">
+      
+        <img src="./offers1.jpeg" alt="manucards">
+      </div>
+      <!-- <div class="manuCard">
+       
+        <img src="./menuCard2.jpeg" alt="menucard">
+      </div> -->
+    </section>
+
+
+   
+      
+<section class="foot" id="footerSetion"> 
+
+      <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left">
+      
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Tanishka cafe & Misalhouse Rashin</h5>
+               <p>We dont compromise on quality that's why we use best quality products.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Our Features</h5>
+              <p>
+                
+                Delicius <br>
+                Hyginic<br>
+                Testy<br>
+                Ontime Orders<br>
+
+               
+              </p>
+      
+      
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Our Social Media  Links</h5>
+              <p>
+                <li class="list-inline-item">
+                  <a href="https://instagram.com/tanishka_cafe_and_misal_house?utm_source=qr&igshid=OGU0MmVlOWVjOQ=="class="btn-floating btn-sm text-white " style="font-size: 23px;" ><i class="fab fa-instagram"></i>omkar barvkar</a>
+                </li>
+              
+               </p>
+      
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+              <p>
+                <i class="fas fa-home mr-3"></i> Add : Rashin,Ahmednagar 414403
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i>Email : Tanishkacafemisalhouse1803@gmail.com
+              </p>
+              <p>
+                <i class="fas fa-phone mr-3"></i> Contact No : Santosh Baravkar :8308824854/7350754064
+                                 omkar baravkar  : 7020300778
+              </p>
+              <p>
+                <i class="fas fa-globe"></i> Tanishka cafe 
+              </p>
+      
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+              <div class="col-md-7 col-lg-8">
+                <p>
+                  Copyright 02020 All rights reserved by:
+                  <a href="#" style="text-decoration: none;">
+                  <strong class="text-warning">TANISHKA CAFE & MISALHOUSE RASHIN</strong>
+                  </a>
+                </p>
+              </div>
+              <div class="col-md-5 col-lg-4">
+                <div class="text-center text-md-right">
+                  <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                          <a href="# " class="btn-floating btn-sm text-white " style="font-size: 23px;" ><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="# " class="btn-floating btn-sm text-white " style="font-size: 23px;" ><i class="fab fa-twitter"></i></a>
+                        </li>
+                        
+                        <li class="list-inline-item">
+                          <a href="# " class="btn-floating btn-sm text-white " style="font-size: 23px;" ><i class="fab fa-google-plus"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="# " class="btn-floating btn-sm text-white " style="font-size: 23px;" ><i class="fab fa-linked-in"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="# " class="btn-floating btn-sm text-white " style="font-size: 23px;" ><i class="fab fa-youtube"></i></a>
+                        </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+          
+
+      
+        </div> 
+   
+      </footer>
+      
+
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
